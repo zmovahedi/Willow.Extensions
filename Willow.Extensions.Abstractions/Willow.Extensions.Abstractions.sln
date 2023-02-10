@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.Abstractions", "Willow.Extensions.Abstractions\Willow.Extensions.Abstractions.csproj", "{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF84AA79-2310-40BF-B306-5EC4A588F421}
+	EndGlobalSection
+EndGlobal
