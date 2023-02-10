@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.Abstractions", "Willow.Extensions.Abstractions\Willow.Extensions.Abstractions.csproj", "{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.CacheAdapter.Abstractions", "Willow.Extensions.CacheAdapter.Abstractions\Willow.Extensions.CacheAdapter.Abstractions.csproj", "{11CC8899-9C13-49EA-876C-A506F4CCF43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.DependentyInjection.Abstractions", "Willow.Extensions.DependentyInjection.Abstractions\Willow.Extensions.DependentyInjection.Abstractions.csproj", "{B37274E2-FE42-4AA2-B58B-145894DC13A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.Events.Abstractions", "Willow.Extensions.Events.Abstractions\Willow.Extensions.Events.Abstractions.csproj", "{75F30C7A-CDC4-416E-BDAC-7B179FBEFDB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.Logger.Abstractions", "Willow.Extensions.Logger.Abstractions\Willow.Extensions.Logger.Abstractions.csproj", "{8767CBA4-2E14-488C-BBDD-A7F1F597CE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.MessageBus.Abstractions", "Willow.Extensions.MessageBus.Abstractions\Willow.Extensions.MessageBus.Abstractions.csproj", "{B1F59523-758B-4862-9331-29D02991A645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B475B2A-7185-46FF-9DBE-0F2AB770D582}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +24,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B81ABBAE-3B19-4F7D-BFFD-435BC6F05509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CC8899-9C13-49EA-876C-A506F4CCF43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CC8899-9C13-49EA-876C-A506F4CCF43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CC8899-9C13-49EA-876C-A506F4CCF43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CC8899-9C13-49EA-876C-A506F4CCF43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B37274E2-FE42-4AA2-B58B-145894DC13A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B37274E2-FE42-4AA2-B58B-145894DC13A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B37274E2-FE42-4AA2-B58B-145894DC13A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B37274E2-FE42-4AA2-B58B-145894DC13A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F30C7A-CDC4-416E-BDAC-7B179FBEFDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F30C7A-CDC4-416E-BDAC-7B179FBEFDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F30C7A-CDC4-416E-BDAC-7B179FBEFDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F30C7A-CDC4-416E-BDAC-7B179FBEFDB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8767CBA4-2E14-488C-BBDD-A7F1F597CE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8767CBA4-2E14-488C-BBDD-A7F1F597CE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8767CBA4-2E14-488C-BBDD-A7F1F597CE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8767CBA4-2E14-488C-BBDD-A7F1F597CE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F59523-758B-4862-9331-29D02991A645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F59523-758B-4862-9331-29D02991A645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F59523-758B-4862-9331-29D02991A645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F59523-758B-4862-9331-29D02991A645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
