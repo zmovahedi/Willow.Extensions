@@ -1,4 +1,4 @@
-﻿namespace Willow.Extensions.CacheAdapter.Abstractions
+﻿namespace Willow.Extensions.Caching.Abstractions
 {
     public class FakeCacheAdapter : ICacheAdapter
     {

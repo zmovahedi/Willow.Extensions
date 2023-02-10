@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.CacheAdapter.Abstractions", "Willow.Extensions.CacheAdapter.Abstractions\Willow.Extensions.CacheAdapter.Abstractions.csproj", "{11CC8899-9C13-49EA-876C-A506F4CCF43E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.Caching.Abstractions", "Willow.Extensions.CacheAdapter.Abstractions\Willow.Extensions.Caching.Abstractions.csproj", "{11CC8899-9C13-49EA-876C-A506F4CCF43E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Willow.Extensions.DependentyInjection.Abstractions", "Willow.Extensions.DependentyInjection.Abstractions\Willow.Extensions.DependentyInjection.Abstractions.csproj", "{B37274E2-FE42-4AA2-B58B-145894DC13A9}"
 EndProject
